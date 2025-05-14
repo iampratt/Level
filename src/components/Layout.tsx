@@ -31,7 +31,7 @@ function Layout({ children, showAdmin }: LayoutProps) {
         <div className="h-16 flex items-center justify-between px-4 border-b border-secondary-200 dark:border-secondary-700">
           <Link to="/" className="flex items-center space-x-2 font-semibold text-primary-600 dark:text-primary-400">
             <LayoutGrid size={20} />
-            <span className="text-lg">TaskTracker</span>
+            <span className="text-lg">LEVEL</span>
           </Link>
           <button 
             onClick={toggleTheme}
